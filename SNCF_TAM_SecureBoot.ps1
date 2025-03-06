@@ -200,10 +200,10 @@ function Enable-SecureBoot {
                         Add-Log "Activation SecureBoot: NOK, Return code: $($saveResult.return), arrêt du script"
                         exit 1
                 }
-                } else {
-                    Add-Log "SetBiosSetting $command : NOK, return: $($setResult.return), essai avec la prochaine commande" # non critique, pas d'affichage au user
-                }
+            } else {
+                Add-Log "SetBiosSetting $command : NOK, return: $($setResult.return), essai avec la prochaine commande" # non critique, pas d'affichage au user
             }
+        }
 
         # Vérification après la boucle
         if ($secureBootEnabled) {
