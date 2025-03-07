@@ -14,7 +14,8 @@ if %errorlevel% neq 0 (
 echo.
 echo ##############################################
 echo #                                            #
-echo #        SCRIPT SECUREBOOT SNCF  v1.0        #
+echo #           SCRIPT SECUREBOOT v1.0           #
+echo #             Lenovo - HP - Dell             #
 echo #   Auteur: MANSUY Leo - Alternant TAM PSL   #
 echo #              e.SNCF Solutions              #
 echo #                                            #
