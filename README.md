@@ -39,4 +39,4 @@ Les PCs avec le Secure Boot activé mais en Setup Mode (Lenovo, HP) ou Audit Mod
 - 5 – Memory Error
 - 6 – Protocol Error
 
-Pour toutes questions, informations et erreurs: MANSUY Léo - Alternant TAM PSL - leo.mansuy@sncf.fr - leo.mansuy.mz@gmail.com
+Pour toutes questions, informations et erreurs: MANSUY Léo - Alternant TAM PSL - leo.mansuy@sncf.fr
