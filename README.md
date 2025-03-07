@@ -7,7 +7,7 @@
 
 ## Information Setup Mode / Audit Mode:
 
-Les PCs avec le Secure Boot activé ou non mais en Setup Mode (Lenovo, HP) ou Audit Mode (Dell) ne peuvent pour l’instant être corrigés que manuellement via le BIOS.
+Les PCs avec le Secure Boot activé ou non mais en Setup Mode (Lenovo, HP) ou Audit Mode (Dell) ne peuvent pour l’instant être corrigés que manuellement via le BIOS par l'option "Clear Secure Boot Factory keys" ou similaire. Certains modèles peuvent également proposer de changer directement le mode.
 
 ## Return codes lors de l'activation du Secure Boot:
 
