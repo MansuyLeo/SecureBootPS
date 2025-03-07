@@ -16,22 +16,22 @@
 
 ### HP:
 
-0 – Success
-1 – Not Supported
-2 – Unspecified Error
-3 – Timeout
-4 – Failed (Usually caused by a typo in the setting value)
-5 – Invalid Parameter
-6 – Access Denied (Usually caused by an incorrect BIOS password)
+- 0 – Success
+- 1 – Not Supported
+- 2 – Unspecified Error
+- 3 – Timeout
+- 4 – Failed (Usually caused by a typo in the setting value)
+- 5 – Invalid Parameter
+- 6 – Access Denied (Usually caused by an incorrect BIOS password)
 
 ### DELL:
 
-0 – Success
-1 – Failed
-2 – Invalid Parameter
-3 – Access Denied
-4 – Not Supported
-5 – Memory Error
-6 – Protocol Error
+- 0 – Success
+- 1 – Failed
+- 2 – Invalid Parameter
+- 3 – Access Denied
+- 4 – Not Supported
+- 5 – Memory Error
+- 6 – Protocol Error
 
 Pour toutes questions, informations et erreurs: MANSUY Léo - Alternant TAM PSL - leo.mansuy@sncf.fr - leo.mansuy.mz@gmail.com
