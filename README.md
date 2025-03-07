@@ -1,8 +1,12 @@
 # Script d'activation du SecureBoot sur les postes Lenovo, HP et Dell
 
 ## Instructions:
-- Copiez le fichier "run_script.bat" et le script "SNCF_TAM_SecureBoot_v1_0.ps1" sur le poste distant dans UN MEME DOSSIER.
-- Exécutez "run_script.bat" en tant qu'administrateur.  
+- 1. Copiez le fichier "run_script.bat" et le script "SNCF_TAM_SecureBoot_v1_0.ps1" sur le poste distant dans UN MEME DOSSIER.
+- 2. Exécutez "run_script.bat" en tant qu'administrateur.  
+
+## Information Setup Mode / Audit Mode:
+
+Les PCs avec le Secure Boot activé mais en Setup Mode (Lenovo, HP) ou Audit Mode (Dell) ne peuvent pour l’instant être corrigés que manuellement via le BIOS.
 
 ## Return codes lors de l'activation du Secure Boot:
 
