@@ -3,7 +3,7 @@
 ## Instructions:
 
 1. Copiez le fichier "run_script.bat" et le script "SNCF_TAM_SecureBoot_v1_0.ps1" sur le poste distant dans UN MEME DOSSIER.
-2. 2. Exécutez "run_script.bat" en tant qu'administrateur.  
+2. Exécutez "run_script.bat" en tant qu'administrateur.  
 
 ## Information Setup Mode / Audit Mode:
 
