@@ -114,8 +114,8 @@ function Test-PlatformMode {
         Add-Log "Platform mode = USER MODE: OK"
     }
     <# Dell Latitude 5420: possible de changer le platform mode via wmi pour une évolution future du script:
-    check l'état: (Get-CimInstance -Namespace root\dcim\sysman\biosattributes -ClassName EnumerationAttribute) | Where-Object AttributeName -eq "SecureBootMode" | Select-Object AttributeName,CurrentValue,PossibleValue
-    set attribute: (Get-WmiObject -Namespace root\dcim\sysman\biosattributes -ClassName BIOSAttributeInterface).SetAttribute(0, 0, 0, "SecureBootMode", "DeployedMode") #>
+    check l'état: Get-CimInstance -Namespace root\dcim\sysman\biosattributes -ClassName EnumerationAttribute | Where-Object AttributeName -eq "SecureBootMode" | Select-Object AttributeName,CurrentValue,PossibleValue
+    set attribute: (Get-WmiObject -Namespace root\dcim\sysman\biosattributes -Class BIOSAttributeInterface).SetAttribute(0, 0, 0, "SecureBootMode", "DeployedMode") #>
 }
 
 # Fonction pour vérifier et suspendre BitLocker
