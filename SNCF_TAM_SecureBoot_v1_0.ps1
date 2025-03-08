@@ -9,11 +9,11 @@ Tests de validations initiaux (QC/QA):
 - Sans Bitlocker + MDP BIOS
 - Avec BitLocker + MDP BIOS
 - Le script doit s'arrêter si: le script n'est pas éxécuté avec les droits administrateurs
-- Le script doit d'arrêter si: l'utilisateur n'a pas sélectionné sur "Oui" dans la boite de dialogue
+- Le script doit d'arrêter si: l'utilisateur n'a pas sélectionné "Oui" dans la boite de dialogue
 - Le script doit s'arrêter si: le fabricant est autre que Lenovo, HP ou Dell
 - Le script doit s'arrêter si: mode BIOS n'est pas UEFI (Legacy)
-- Le script doit s'arrêter si: platform mode est Setup Mode
-- Le script doit s'arrêter si: le secure boot est déjà actif
+- Le script doit s'arrêter si: platform mode est Setup Mode (Secure Boot activé ou non)
+- Le script doit s'arrêter si: le Secure Boot est déjà actif
 
 Validés LENOVO (L380)
 Validés HP (Probook 440 G7)
@@ -113,6 +113,9 @@ function Test-PlatformMode {
         Write-Host " User Mode ou Deployed Mode: OK"
         Add-Log "Platform mode = USER MODE: OK"
     }
+    <# Dell Latitude 5420: possible de changer le platform mode via wmi pour une évolution future du script:
+    check l'état: (Get-CimInstance -Namespace root\dcim\sysman\biosattributes -ClassName EnumerationAttribute) | Where-Object AttributeName -eq "SecureBootMode" | Select-Object AttributeName,CurrentValue,PossibleValue
+    set attribute: (Get-WmiObject -Namespace root\dcim\sysman\biosattributes -ClassName BIOSAttributeInterface).SetAttribute(0, 0, 0, "SecureBootMode", "DeployedMode") #>
 }
 
 # Fonction pour vérifier et suspendre BitLocker
@@ -327,4 +330,5 @@ DELL:
 4 – Not Supported
 5 – Memory Error
 6 – Protocol Error
+
 #>
