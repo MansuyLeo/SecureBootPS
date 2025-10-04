@@ -1,4 +1,4 @@
-﻿# Script par MANSUY Léo - Alternant TAM PSL - DSNU DASU IDF - e.SNCF Solutions
+﻿# Script par MANSUY Léo
 # Script d'activation du Secure Boot sur les postes de travail Lenovo, HP et Dell
 # Si modification du script, se rappeler d'encoder le fichier en UTF-8 avec prise en charge BOM
 
@@ -332,3 +332,4 @@ DELL:
 6 – Protocol Error
 
 #>
+
