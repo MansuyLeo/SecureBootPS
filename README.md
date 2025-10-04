@@ -38,3 +38,5 @@ Les PCs avec le Secure Boot activé ou non mais en Setup Mode (Lenovo, HP) ou Au
 - 4 – Not Supported
 - 5 – Memory Error
 - 6 – Protocol Error
+
+Un grand merci à Jon Anderson qui a été d'une grande inspiration pour ce script. Consulter son blog ici: https://www.configjon.com/
