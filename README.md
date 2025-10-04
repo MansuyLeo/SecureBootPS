@@ -2,7 +2,7 @@
 
 ## Instructions:
 
-1. Copiez le fichier "run_script_v1_0.bat" et le script "SNCF_TAM_SecureBoot_v1_0.ps1" sur le poste distant dans UN MEME DOSSIER.
+1. Copiez le fichier "run_script_v1_0.bat" et le script "SecureBootPS_v1_0.ps1" sur le poste distant dans UN MEME DOSSIER.
 2. Exécutez "run_script_v1_0.bat" en tant qu'administrateur.  
 
 ## Information Setup Mode / Audit Mode:
@@ -38,5 +38,3 @@ Les PCs avec le Secure Boot activé ou non mais en Setup Mode (Lenovo, HP) ou Au
 - 4 – Not Supported
 - 5 – Memory Error
 - 6 – Protocol Error
-
-Pour toutes questions, informations et erreurs: MANSUY Léo - Alternant TAM PSL - leo.mansuy@sncf.fr
